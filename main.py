@@ -1,4 +1,3 @@
-```python
 import yfinance as yf
 import requests
 import gspread
