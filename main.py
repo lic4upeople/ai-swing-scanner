@@ -159,4 +159,3 @@ Target: ₹{target}
         print(f"Error in {stock}: {e}")
 
 print("\nScanner Completed Successfully")
-```
