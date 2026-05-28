@@ -1,4 +1,3 @@
-```yaml id="q7m2v4"
 name: AI Swing Scanner
 
 on:
@@ -27,4 +26,3 @@ jobs:
       - name: Run Scanner
         run: |
           python main.py
-```
