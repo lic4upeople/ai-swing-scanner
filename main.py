@@ -30,7 +30,7 @@ creds = ServiceAccountCredentials.from_json_keyfile_name(
 
 client = gspread.authorize(creds)
 
-sheet = client.open("AI Swing Picks").sheet1
+sheet = client.open_by_url("https://docs.google.com/spreadsheets/d/19RRDAe2sr2FHdc2s3qO1-fcBFaRQ6NtVNXpCUZO_oOQ/edit?gid=0#gid=0").sheet1
 
 # ==============================
 # TELEGRAM FUNCTION
