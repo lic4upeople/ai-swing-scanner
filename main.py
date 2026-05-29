@@ -16,8 +16,8 @@ if os.getenv("GOOGLE_CREDENTIALS"):
 # TELEGRAM SETTINGS
 # ==============================
 
-BOT_TOKEN = "8855644070:AAGGKPF_-BszSumzd0wWVpQ7peLdPWZ_cYo"
-CHAT_ID = "5328155527"
+BOT_TOKEN = os.getenv("BOT_TOKEN")
+CHAT_ID = os.getenv("CHAT_ID")
 
 # ==============================
 # GOOGLE SHEET SETTINGS
