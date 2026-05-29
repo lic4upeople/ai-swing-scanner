@@ -6,7 +6,12 @@ from ta.momentum import RSIIndicator
 from ta.trend import EMAIndicator
 from oauth2client.service_account import ServiceAccountCredentials
 from datetime import datetime
+import os
+import json
 
+if os.getenv("GOOGLE_CREDENTIALS"):
+    with open("credentials.json", "w") as f:
+        f.write(os.getenv("GOOGLE_CREDENTIALS"))
 # ==============================
 # TELEGRAM SETTINGS
 # ==============================
